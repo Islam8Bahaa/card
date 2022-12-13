@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.card1{
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+    width: 65%;
+}
+
+.card1 .card1-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1 .card1-container .img{
+    flex-basis: 35%;
+
+}
+
+.card1 .card1-container .img img{
+    width: 100%;
+}
+
+.card1 .card1-container .hotel{
+    flex-basis: 40%;
+}
+
+
+.card1 .card1-container .hotel .name h4{
+    font-size: 18px;
+}
+
+.card1 .card1-container .hotel .name h4>svg{
+    font-size: 10px;
+    color: orange;
+    margin-bottom:2px ;
+}
+
+.card1 .card1-container .location,
+.card1 .card1-container .room{
+    color: #697488;
+    font-size: 14px;
+}
+
+
+.card1 .card1-container .room .main{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.card1 .card1-container .cancel{
+    font-size: 14px;
+    color: #008009;
+}
+
+.card1 .card1-container .more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1 .card1-container .more .box button{
+    background: transparent;
+    border: 1px solid;
+    padding: 7px 22px;
+    border-radius: 100px;
+    margin-top: 7%;
+}
+
+
+.card1 .card1-container .see .exce {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card1 .card1-container .see .cost{
+    color: #697488;
+    font-size: 14px;
+    text-align: end;
+}
+
+
+.card1 .card1-container .see .cost .main{
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+    margin: 6% 0;
+}
+
+
+.card1 .card1-container .see .button button{
+    padding: 10px 20px;
+}
+
+
+@media (max-width:1200px) {
+    
+    
+    .card1{
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) {
+
+    .card1 .card1-container {
+        flex-wrap: wrap;
+    }
+    .card1 .card1-container .img{
+        flex-basis: 100%;
+        margin-bottom: 5%;
+    }
+    .card1 .card1-container .hotel{
+        flex-basis: 70%;
+    }
+}
+
+@media (max-width:796px) {
+    .card1 .card1-container .hotel{
+        flex-basis: 100%;
+        margin-bottom: 5%;
+    }
+    .card1 .card1-container .see{
+        flex-basis: 100%;
+    }
+    .card1 .card1-container .more{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:576px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
