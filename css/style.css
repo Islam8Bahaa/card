@@ -6,8 +6,8 @@
 }
 
 .card1{
-    border-top: 1px solid black;
-    border-bottom:1px solid black ;
+    border-top: 1px solid #697488;
+    border-bottom:1px solid #697488 ;
     width: 65%;
 }
 
@@ -99,6 +99,22 @@
 
 .card1 .card1-container .see .button button{
     padding: 10px 20px;
+}
+
+@media (max-width:1440px) {
+    
+    
+    .card1{
+        width: 80%;
+    }
+}
+
+@media (max-width:1270px) {
+    
+    
+    .card1{
+        width: 75%;
+    }
 }
 
 
